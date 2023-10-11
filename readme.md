@@ -1,4 +1,4 @@
-# Classification Projects on Machine Learning for Beginners - 2 Project Overview
+# Ensemble Multi-class Classification on business license data.
 
 ## Overview
 In machine learning, Classification is one of the most widely used techniques with various applications. In this project, we explore hands-on and theoretical aspects of various ensemble techniques used for multi-class classification.
