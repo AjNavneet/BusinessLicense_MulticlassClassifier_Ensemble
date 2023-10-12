@@ -50,7 +50,8 @@ The dataset used is a licensed dataset. It contains information about 86K differ
 4. The `lib` folder is a reference folder. It contains the original Jupyter notebook that we saw in the videos.
 ---
 
-## Takeaways
+## Concepts Explored
+Throughout the project, we explored various concepts and techniques, including
 
 1. What is Ensembling?
 2. What is Bagging?
