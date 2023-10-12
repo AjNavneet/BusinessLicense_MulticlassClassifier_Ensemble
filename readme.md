@@ -2,40 +2,39 @@
 
 ## Overview
 In machine learning, Classification is one of the most widely used techniques with various applications. In this project, we explore hands-on and theoretical aspects of various ensemble techniques used for multi-class classification.
-
+---
 ## Aim
 Understanding Ensemble techniques and implementing them to predict license status for the given business.
 
 ## Data Description
 The dataset used is a licensed dataset. It contains information about 86K different businesses over various features. The target variable is the status of the license, which has five different categories.
-
+---
 ## Tech Stack
 - Language: Python
 - Libraries: pandas, scikit_learn, category_encoders, numpy, os, seaborn, matplotlib, hyperopt, xgboost
+---
 
 ## Approach
 1. Data Description
 2. Exploratory Data Analysis
 3. Data Cleaning
-    a. Missing Value imputation
-    b. Outlier Detection
+  -  a. Missing Value imputation
+  -  b. Outlier Detection
 4. Data Imbalance
 5. Data Encoding
 6. Model Building
-    a. Random Forest
-    b. AdaBoost
-    c. XGBoost
+  -  a. Random Forest
+  -  b. AdaBoost
+  -  c. XGBoost
 7. Feature importance
 8. Hyperparameter tuning
-    a. Random search optimization
-    b. Grid search optimization
-    c. Bayesian optimization
+  -  a. Random search optimization
+  -  b. Grid search optimization
+  -  c. Bayesian optimization
+
+---
 
 ## Modular code overview
-1. `input`
-2. `src`
-3. `output`
-4. `lib`
 
 1. The `input` folder contains the data that we have for analysis. In our case, it contains `Licence_Data.csv`.
 2. The `src` folder is the heart of the project. This folder contains all the modularized code for all the above steps in a modularized manner.
@@ -46,7 +45,7 @@ The dataset used is a licensed dataset. It contains information about 86K differ
     
 3. The `output` folder contains an Excel file for classification metrics scores of each model.
 4. The `lib` folder is a reference folder. It contains the original Jupyter notebook that we saw in the videos.
-
+---
 ## Takeaways
 1. What is Ensembling?
 2. What is Bagging?
