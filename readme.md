@@ -1,13 +1,16 @@
 # Ensemble Multi-class Classification on Business license data
 
 ## Overview
+
 In machine learning, Classification is one of the most widely used techniques with various applications. In this project, we explore hands-on and theoretical aspects of various ensemble techniques used for multi-class classification.
+
 ---
 ## Aim
 Understanding Ensemble techniques and implementing them to predict license status for the given business.
 
 ## Data Description
 The dataset used is a licensed dataset. It contains information about 86K different businesses over various features. The target variable is the status of the license, which has five different categories.
+
 ---
 ## Tech Stack
 - Language: Python
@@ -46,7 +49,9 @@ The dataset used is a licensed dataset. It contains information about 86K differ
 3. The `output` folder contains an Excel file for classification metrics scores of each model.
 4. The `lib` folder is a reference folder. It contains the original Jupyter notebook that we saw in the videos.
 ---
+
 ## Takeaways
+
 1. What is Ensembling?
 2. What is Bagging?
 3. Understanding Random Forest model
