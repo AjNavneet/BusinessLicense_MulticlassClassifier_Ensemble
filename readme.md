@@ -1,20 +1,19 @@
 # Ensemble Multi-class Classification on Business license data
 
-## Overview
-
-In machine learning, Classification is one of the most widely used techniques with various applications. In this project, we explore hands-on and theoretical aspects of various ensemble techniques used for multi-class classification.
+## Aim
+Implementing Ensemble techniques to predict license status for the given business.
 
 ---
-## Aim
-Understanding Ensemble techniques and implementing them to predict license status for the given business.
 
 ## Data Description
 The dataset used is a licensed dataset. It contains information about 86K different businesses over various features. The target variable is the status of the license, which has five different categories.
 
 ---
+
 ## Tech Stack
-- Language: Python
-- Libraries: pandas, scikit_learn, category_encoders, numpy, os, seaborn, matplotlib, hyperopt, xgboost
+- Language: `Python`
+- Libraries: `pandas`, `scikit_learn`, `category_encoders`, `numpy`, `os`, `seaborn`, `matplotlib`, `hyperopt`, `xgboost`
+  
 ---
 
 ## Approach
@@ -47,28 +46,27 @@ The dataset used is a licensed dataset. It contains information about 86K differ
     The `requirements.txt` file has all the required libraries with respective versions. Kindly install the file by using the command `pip install -r requirements.txt`.
     
 3. The `output` folder contains an Excel file for classification metrics scores of each model.
-4. The `lib` folder is a reference folder. It contains the original Jupyter notebook that we saw in the videos.
+4. The `lib` folder is a reference folder. It contains the original Jupyter notebook.
 ---
 
 ## Concepts Explored
-Throughout the project, we explored various concepts and techniques, including
 
-1. What is Ensembling?
-2. What is Bagging?
-3. Understanding Random Forest model
-4. Building Random Forest model
-5. What are problems with bagging and how to overcome them?
-6. What is Boosting?
-7. Fundamentals of AdaBoost
-8. Building AdaBoost model
-9. XGBoost algorithm
-10. Building XGBoost model
-11. Understanding XGBoost hyperparameter Gamma
-12. Understanding XGBoost hyperparameter Lambda
-13. What is hyperparameter tuning?
-14. GridSearch optimization
-15. RandomSearch optimization
-16. Bayesian optimization
-17. Hyperparameter tuning for RandomForest model
-18. Hyperparameter tuning for XGBoost model using hyperopt
-19. Feature importance
+1. Ensembling
+2. Bagging
+3. Random Forest model
+4. Problems with bagging and overcoming them
+5. Boosting
+6. AdaBoost
+7. XGBoost algorithm
+8. XGBoost hyperparameter Gamma
+9. XGBoost hyperparameter Lambda
+10. GridSearch optimization
+11. RandomSearch optimization
+12. Bayesian optimization
+13. Hyperparameter tuning for RandomForest model
+14. Hyperparameter tuning for XGBoost model using hyperopt
+15. Feature importance
+
+---
+
+
