@@ -1,11 +1,13 @@
-# Ensemble Multi-class Classification on Business license data
+# Business license Multi-class Classification using Ensemble 
 
 ## Aim
+
 Implementing Ensemble techniques to predict license status for the given business.
 
 ---
 
 ## Data Description
+
 The dataset used is a licensed dataset. It contains information about 86K different businesses over various features. The target variable is the status of the license, which has five different categories.
 
 ---
@@ -17,6 +19,7 @@ The dataset used is a licensed dataset. It contains information about 86K differ
 ---
 
 ## Approach
+
 1. Data Description
 2. Exploratory Data Analysis
 3. Data Cleaning
@@ -49,24 +52,5 @@ The dataset used is a licensed dataset. It contains information about 86K differ
 4. The `lib` folder is a reference folder. It contains the original Jupyter notebook.
 ---
 
-## Concepts Explored
-
-1. Ensembling
-2. Bagging
-3. Random Forest model
-4. Problems with bagging and overcoming them
-5. Boosting
-6. AdaBoost
-7. XGBoost algorithm
-8. XGBoost hyperparameter Gamma
-9. XGBoost hyperparameter Lambda
-10. GridSearch optimization
-11. RandomSearch optimization
-12. Bayesian optimization
-13. Hyperparameter tuning for RandomForest model
-14. Hyperparameter tuning for XGBoost model using hyperopt
-15. Feature importance
-
----
 
 
