@@ -1,4 +1,4 @@
-# Business license Multi-class Classification using Ensemble 
+# Business license Multi-class Ensemble Classification
 
 ## Aim
 
